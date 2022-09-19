@@ -1,11 +1,13 @@
+import Child from './components/Child'
+
 import "./Example.css";
 
 const Example = () => {
   return (
-    <div className="component">
-      <h3>Hello Component</h3>
+    <div>
+      <Child / >
     </div>
-  );
+  )
 };
 
 export default Example;
